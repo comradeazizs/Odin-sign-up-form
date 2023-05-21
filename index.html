@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sign up form</title>
    <link rel="stylesheet" type="text/css" href="./styles.css">
+   <script src="./code.js" defer></script>
 </head>
 
 <body>
@@ -32,15 +33,15 @@
          <div class="input">
             <p>Let's do this!</p>
             <ul>
-               <li><label for="f-name">FIRST NAME</label> <input type="text" id="f-name" name="f-name"></li>
-               <li><label for="l-name">LAST NAME</label> <input type="text" id="l-name" name="l-name"></li>
-               <li><label for="email">EMAIL</label> <input type="email" id="email" name="email"></li>
-               <li><label for="number">PHONE NUMBER</label> <input type="number" id="number" name="number"></li>
-               <li><label for="password">PASSWORD</label> <input class="error" type="password" id="password"
+               <li><label for="f-name">FIRST NAME</label> <input required type="text" id="f-name" name="f-name"></li>
+               <li><label for="l-name">LAST NAME</label> <input required type="text" id="l-name" name="l-name"></li>
+               <li><label for="email">EMAIL</label> <input required type="email" id="email" name="email"></li>
+               <li><label for="number">PHONE NUMBER</label> <input required type="number" id="number" name="number"></li>
+               <li><label for="password">PASSWORD</label> <input required class="error" type="password" id="password"
                      name="password">
                   <p class="error-text">* Passwords do not match</p>
                </li>
-               <li><label for="c-password"> CONFIRM PASSWORD</label> <input class="error" type="password"
+               <li><label for="c-password"> CONFIRM PASSWORD</label> <input required class="error" type="password"
                      id="c-password" name="c-password"></li>
             </ul>
          </div>
