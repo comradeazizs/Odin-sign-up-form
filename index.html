@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up form</title>
-    <link rel="stylesheet" href="styles.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sign up form</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+   <div class="img-side">
+      <div class="odin-cont">
+         <div class="odin-img">
+
+         </div>
+         <p class="odin-font">ODIN</p>
+      </div>
+      <div class="footer">
+         <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+               href="https://unsplash.com/">Unsplash</a></p>
+      </div>
+   </div>
+   <div class="form-side">
+      <div class="text">
+         <p>This is not a real online service! You know you need something like this in your life to help you
+            realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+         <p> You <em>know</em> you want to.</p>
+      </div>
+      <form action="#" method="post">
+         <div class="input">
+            <p>Let's do this!</p>
+            <ul>
+               <li><label for="f-name">FIRST NAME</label> <input type="text" id="f-name" name="f-name"></li>
+               <li><label for="l-name">LAST NAME</label> <input type="text" id="l-name" name="l-name"></li>
+               <li><label for="email">EMAIL</label> <input type="email" id="email" name="email"></li>
+               <li><label for="number">PHONE NUMBER</label> <input type="number" id="number" name="number"></li>
+               <li><label for="password">PASSWORD</label> <input class="error" type="password" id="password"
+                     name="password">
+                  <p class="error-text">* Passwords do not match</p>
+               </li>
+               <li><label for="c-password"> CONFIRM PASSWORD</label> <input class="error" type="password"
+                     id="c-password" name="c-password"></li>
+            </ul>
+         </div>
+         <button type="button" class="sub-button">Create Account</button>
+
+      </form>
+      <p>Already have account? <a href="#">Log in</a></p>
+   </div>
+
 </body>
+
 </html>
